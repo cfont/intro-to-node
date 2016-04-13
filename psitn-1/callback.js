@@ -17,13 +17,13 @@ var evenDoubler = function(v,callback) {
     
 };
 
-var handleResults = function(err,results,time){
-    if (err){
-        console.log("Error: " + err.message);
-    } else {
-        console.log("The results are: " + results + " (" + time + " ms)");
-    }
-};
+// var handleResults = function(err,results,time){
+//     if (err){
+//         console.log("Error: " + err.message);
+//     } else {
+//         console.log("The results are: " + results + " (" + time + " ms)");
+//     }
+// };
 
 var count = 0;
 
